@@ -8,44 +8,15 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/aarl"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/aarl"
-        android:onClick="aarlInfo"
-        android:textSize="50dp" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/aksi"
-        android:onClick="aksiInfo"
-        android:textSize="50dp"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/igni"
-        android:onClick="igniInfo"
-        android:textSize="50dp"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/irden"
-        android:onClick="irdenInfo"
-        android:textSize="50dp"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@drawable/qwen"
-        android:onClick="qwenInfo"
-        android:textSize="50dp"
-        tools:ignore="OnClick" />
+    <ListView
+        android:id="@+id/symbolsListView"
+        android:gravity="center_vertical"
+        android:background="@drawable/background_list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@color/noColor"
+        android:dividerHeight="10sp"
+        android:layout_marginBottom="350dp"
+        android:paddingTop="10dp"/>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.cheatsheet;
+package com.example.project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,14 @@ import android.os.Bundle;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import com.example.cheatsheet.AarlActivity;
+import com.example.cheatsheet.AksiActivity;
+import com.example.cheatsheet.IgniActivity;
+import com.example.cheatsheet.IrdenActivity;
+import com.example.cheatsheet.QwenActivity;
+import com.example.cheatsheet.R;
 
 import java.util.HashMap;
 import java.util.Map;
